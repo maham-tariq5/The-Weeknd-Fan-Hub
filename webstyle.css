@@ -1,4 +1,4 @@
-/* General Page Styling */
+
 body {
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@ body {
     color: white;
 }
 
-/* Navigation Bar */
+
 nav {
     display: flex;
     justify-content: center;
@@ -58,7 +58,7 @@ nav ul li a:hover {
     text-align: left;
     height: 80vh;
     position: relative;
-    border-bottom: 1px solid white; /* Added bottom line under hero section */
+    border-bottom: 1px solid white; 
 }
 
 .hero-text {
@@ -87,18 +87,11 @@ nav ul li a:hover {
 }
 
 .hero-image img {
-    width: 67%; /* Adjusted size to make the image smaller */
+    width: 67%; 
     height: auto;
     object-fit: contain;
 }
 
-/* Bottom Border */
-/*.footer {
-    width: 100%;
-    border-top: 1px solid white;
-    padding: 10px 0;
-}
-*/
 
 footer {
     background-color: #000;
@@ -132,24 +125,24 @@ footer {
 }
 
 .main p {
-    border: 3px solid white;         /* Slightly thicker border for emphasis */
-    padding: 30px;                   /* Increased spacing inside box */
-    margin-bottom: 25px;             /* Increased spacing between boxes */
-    border-radius: 15px;             /* More rounded corners */
-    font-size: 18px;                 /* Makes text larger and easier to read */
-    line-height: 1.6;                /* Improved spacing between lines of text */
+    border: 3px solid white;         
+    padding: 30px;                 
+    margin-bottom: 25px;         
+    border-radius: 15px;           
+    font-size: 18px;               
+    line-height: 1.6;              
 }
 
 .image-pair {
-    display: flex;              /* Side-by-side images */
-    justify-content: center;    /* Horizontally centered */
-    gap: 15px;                  /* Space between images */
-    margin: 20px auto;          /* Vertical spacing */
+    display: flex;            
+    justify-content: center;    
+    gap: 15px;                 
+    margin: 20px auto;         
 }
 
 .image-pair img {
-    width: 25%;                 /* Adjust this width as needed */
-    border-radius: 10px;        /* Optional rounded corners */
+    width: 25%;                 
+    border-radius: 10px;        
 }
 
 .footer-content {
@@ -171,8 +164,8 @@ footer {
 .album img {
     width: 200px;
     border-radius: 10px;
-    margin: 20px auto;  /* <--- this centers the image */
-    display: block;     /* <--- needed to allow auto margins to work */
+    margin: 20px auto;  
+    display: block;    
 }
 
 
@@ -185,4 +178,36 @@ footer {
     font-style: italic;
     color: #ccc;
     margin-bottom: 10px;
+}
+
+/* error page stuff */
+.main-error {
+	padding: 30px;
+	margin-top: 10px;
+}
+
+.main-error p {
+    border: 3px solid white;         
+    padding: 30px;                 
+    margin-bottom: 25px;         
+    border-radius: 15px;           
+    font-size: 18px;               
+    line-height: 1.6;   
+    text-align: center;           
+}
+
+
+
+
+
+.image-stuff {
+    display: flex;            
+    justify-content: center;    
+    gap: 15px;                 
+    margin: 20px auto;         
+}
+
+.image-stuff img {
+    width: 50%;                 
+    border-radius: 10px;        
 }
